@@ -1,0 +1,8 @@
+
+EXE := um.exe
+OBJS := um.o main.o um_console.o
+HEADERS := um.h um_porting.h um_console.h
+
+all : $(EXE)
+
+include ../rules.make
